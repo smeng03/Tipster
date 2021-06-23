@@ -30,8 +30,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories (on phone followed by emulator:
 
-<img src='https://imgur.com/a/7t7w8jF' title='Phone Video Walkthrough' width='' alt='Phone Video Walkthrough' />
-<img src='https://imgur.com/a/zc5ijTO' title='Emulator Video Walkthrough' width='' alt='Emulator Video Walkthrough' />
+![](https://i.imgur.com/eMuRZLH.gif)
+
+![](https://i.imgur.com/BeYiA80.gif)
 
 GIF created with [Kap](https://getkap.co/).
 
@@ -61,3 +62,4 @@ List an 3rd party libraries, icons, graphics, or other assets you used in your a
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
