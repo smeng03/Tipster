@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories (on phone followed by emulator):
 
-+<img src="phone_tipster_demo.gif?raw=true" width="200px">
+<img src="phone_tipster_demo.gif?raw=true" width="300px">
 
 ![](https://i.imgur.com/KW0X0Vz.gif)
 
