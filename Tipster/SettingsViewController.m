@@ -17,17 +17,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    // Retrieves stored custom tip and sets slider bar to appropriate location
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     int customTip = [defaults doubleForKey:@"default_tip_percentage"];
     self.sliderValue.value = customTip;
-    self.tipText.text = [NSString stringWithFormat:@"Custom Tip: %d", customTip];
+    self.tipText.text = [NSString stringWithFormat:@"Custom Tip: %d%%", customTip];
 }
 
 - (IBAction)setTipValue:(id)sender {
+    // Retrieves slider value and stores for use in Tipster app
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     int tipVal = (int) self.sliderValue.value;
-    self.tipText.text = [NSString stringWithFormat:@"Custom Tip: %d", tipVal];
+    self.tipText.text = [NSString stringWithFormat:@"Custom Tip: %d%%", tipVal];
     [defaults setDouble:tipVal forKey:@"default_tip_percentage"];
     [defaults synchronize];
 }

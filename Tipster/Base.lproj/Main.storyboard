@@ -53,19 +53,26 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9fz-GO-gbZ">
-                                        <rect key="frame" x="-24" y="161" width="422" height="7"/>
+                                        <rect key="frame" x="-16" y="179" width="422" height="7"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GpW-Y7-YWi">
-                                        <rect key="frame" x="16" y="0.0" width="346" height="161"/>
+                                        <rect key="frame" x="18" y="-12" width="346" height="161"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="100"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tip: 0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rqB-ZQ-nl0">
+                                        <rect key="frame" x="13" y="113" width="346" height="73"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ZVC-P6-MW7">
-                                        <rect key="frame" x="16" y="199" width="358" height="32"/>
+                                        <rect key="frame" x="16" y="215" width="358" height="32"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <segments>
                                             <segment title="15%"/>
@@ -152,6 +159,7 @@
                         <outlet property="split3Text" destination="xVa-JI-bf5" id="iNO-UM-Xji"/>
                         <outlet property="split4Text" destination="uKL-Ps-Rmn" id="OP3-AQ-tK3"/>
                         <outlet property="splitView" destination="h1R-eN-HdS" id="ZEu-ld-UuP"/>
+                        <outlet property="tipLabel" destination="rqB-ZQ-nl0" id="wku-cG-QPF"/>
                         <outlet property="tipPercentagesControl" destination="ZVC-P6-MW7" id="eB9-5f-aAh"/>
                         <outlet property="totalLabel" destination="GpW-Y7-YWi" id="q8w-Kb-bkJ"/>
                     </connections>
