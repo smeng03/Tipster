@@ -28,7 +28,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories (on phone followed by emulator:
+Here's a walkthrough of implemented user stories (on phone followed by emulator):
 
 ![](https://i.imgur.com/Di75Diu.gif)
 
